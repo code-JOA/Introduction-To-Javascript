@@ -48,6 +48,11 @@ sum(14, 7);
 // or
 function sum(a, b) {
   let ret = a + b;
-  return a + b;
+  return ret;
 }
 sum(14, 7);
+
+# default parameters
+function calc(a, b){
+    return (2 * (a + b));
+}
